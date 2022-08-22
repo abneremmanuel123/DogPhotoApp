@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>abner</title>
+    <title>Dog Photo App</title>
 </head>
 
 <body>
@@ -27,8 +27,52 @@
                 <li>Leaning Against You</li>
                 <li>Sleeping in Your Bedroom</li>
             </ul>
+
+            <figure>
+                <img src="3dogs.jpeg" alt="3dogs sitting besides each other">
+                <figcaption>A <em>cute dogs</em> sitting each other.</figcaption>
+            </figure>
+
+            <h3>Top 3 things dog hates:</h3>
+            <ol>
+                <li>Yelling and Harsh Punishment</li>
+                <li>Strong Fragrances</li>
+                <li>Being Left Alone or Ignored</li>
+            </ol>
+
+            <figure>
+                <img src="newborndog.webp" alt="new born puppy">
+                <figcaption><strong>cute</strong> new born puppy</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Dog Form</h2>
+            <form action="https://www.pexels.com/search/dog/"></form>
+            <fieldset>
+                <legend>Is your dog an indoor or outdoor dog?</legend>
+                <label>
+                    <input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked>indoor
+                </label>
+                <label>
+                    <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Whats's your dog personality?</legend>
+                <input type="checkbox" id="loving" name="personality" value="loving" checked> <label
+                    for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" name="personality" value="energetic"> <label
+                    for="energetic">Energetic</label>
+            </fieldset>
+            <input type="text" name="dogphotourl" placeholder="Dog Photo URL" required>
+            <button type="submit">Submit</button>
         </section>
     </main>
+    <footer>
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
 </body>
 
 </html>
